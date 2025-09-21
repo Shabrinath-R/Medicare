@@ -9,7 +9,7 @@ public class LaunchBrowser{
 	
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://qspiders.com");
+		driver.get("https://www.facebook.com/");
 		Reporter.log(driver.getTitle(),true);
 		
 		
