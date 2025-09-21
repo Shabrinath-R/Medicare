@@ -11,7 +11,7 @@ public class LaunchBrowser{
 		
 		driver.get("https://www.facebook.com/");
 		Reporter.log(driver.getTitle(),true);
-		
+		driver.quit();
 		
 	}
 }
